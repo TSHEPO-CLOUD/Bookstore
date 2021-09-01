@@ -2,7 +2,7 @@ import React from 'react';
 
 const Categories = () => (
   <section className="categories">
-    <h2>Under construction</h2>
+    <h2>Work in  progress</h2>
   </section>
 );
 

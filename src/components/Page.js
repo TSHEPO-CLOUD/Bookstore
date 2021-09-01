@@ -2,8 +2,8 @@ import React from 'react';
 
 const books = [
   {
-    category: 'Action',
-    title: 'The Hunger Games',
+    category: 'Commedy',
+    title: 'Hangover',
     author: 'Suzanne Collins',
     progress: {
       currentChapter: 'Chapter 17',
@@ -11,8 +11,8 @@ const books = [
     },
   },
   {
-    category: 'Science Fiction',
-    title: 'Dune',
+    category: 'Olympics',
+    title: 'Tokyo',
     author: 'Frank Herbert',
     progress: {
       currentChapter: 'Chapter 3: "A Lesson Learned"',
@@ -20,7 +20,7 @@ const books = [
     },
   },
   {
-    category: 'Economy',
+    category: 'Weather',
     title: 'Capital in the Twenty-First Century',
     author: 'Suzanne Collins',
     progress: {

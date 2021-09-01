@@ -6,8 +6,8 @@ const Addbook = () => (
     <div className="addbook">
       <input type="text" name="book-name" required placeholder="Book Title" />
       <select name="category">
-        <option value="Action">Action</option>
-        <option value="Horror">Economy</option>
+        <option value="Action">Sports</option>
+        <option value="Horror">Weather</option>
         <option value="Comedy">Comedy</option>
         <option value="Magic">Science Fiction</option>
       </select>

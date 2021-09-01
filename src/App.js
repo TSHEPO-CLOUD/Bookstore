@@ -11,8 +11,8 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/" exact component={Books} />
           <Route path="/categories" exact component={Categories} />
+          <Route path="/" exact component={Books} />
         </Switch>
       </Router>
     </div>

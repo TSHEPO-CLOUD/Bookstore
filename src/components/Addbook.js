@@ -3,6 +3,13 @@ import { useDispatch } from 'react-redux';
 import { v4 as uuidva } from 'uuid';
 import { addBook } from '../redux/books/books';
 
+function Addbook() {
+  const dispatch = useDispatch();
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
+  const [category, setCategory] = useState('Action')
+}
+
 const Addbook = () => (
   <div>
     <h3>ADD NEW BOOK</h3>

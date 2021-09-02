@@ -28,6 +28,38 @@ function Page() {
                 <button type="button" className="btn-special">
                   Comments
                 </button>
+                <button type="button" onClick={() => dispatch(removeBook(element.id))} className="btn-special">
+                  Remove
+                </button>
+                <button type="button" className="btn-special">
+                  Edit
+                </button>
+              </div>
+            </div>
+            <div className="book-center">
+              <img src="./" alt="progress" className="progress" />
+              <div className="data">
+                <h3>0</h3>
+                <h6>Completed</h6>
+              </div>
+            </div>
+            <div className="book-right">
+              <div>
+                <h3>Current chapter</h3>
+                <h3>0</h3>
+              </div>
+              <button type="button">Update Progress</button>
+            </div>
+          </div>
+        ))}
+      </div>
+
+    );
+  }
+  return <h3>empty</h3>;
+}
+
+export default Page;
 
 const books = [
   {

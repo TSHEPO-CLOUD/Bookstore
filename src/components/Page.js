@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/books';
 
+
+function Page() {
+  const { booksReducer } = useSelector((state) => state);
+  const { books } = booksReducer;
+  const [booksDisplay, setBooksDisplay] = useState(null);
+  const dispatch = useDispatch();
 const books = [
   {
     category: 'Commedy',

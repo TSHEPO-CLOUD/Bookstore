@@ -1,16 +1,27 @@
 import { useState} from 'react';
 import { useDispatch } from 'react-redux';
-import { v4 as uuidva } from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/books/books';
 
 function Addbook() {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
-  const [category, setCategory] = useState('Action')
-}
+  const [category, setCategory] = useState('Action');
 
-const Addbook = () => (
+  const submitBookToStore = () => {
+    const newBook = {
+      id: uuidv4(),
+      title,
+      author,
+      category,
+    };
+
+    dispatch(addBook(newBook));
+  };
+
+
+return (
   <div>
     <h3>ADD NEW BOOK</h3>
     <div className="addbook">
@@ -25,5 +36,6 @@ const Addbook = () => (
     </div>
   </div>
 );
+}
 
 export default Addbook;

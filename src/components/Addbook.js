@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/books/books';
 
-function Addbook() {
+const Addbook = () => {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
@@ -37,6 +37,6 @@ function Addbook() {
     </div>
 
   );
-}
+};
 
 export default Addbook;

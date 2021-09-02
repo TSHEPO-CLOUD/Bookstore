@@ -18,7 +18,7 @@ function Page() {
     return (
       <div className="books-container">
         {booksDisplay.map((element) => (
-          <div className="bookcard" key={element.title}>
+          <div className="bookcard" key={element.id}>
             <div className="book-left">
               <h4 className="book_genre">{element.category}</h4>
               <h3 className="title">{element.title}</h3>

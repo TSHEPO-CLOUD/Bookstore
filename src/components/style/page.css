@@ -1,0 +1,14 @@
+.book-right > div > div > h4 {
+ font-size: 22px;
+ position: relative;
+}
+
+.book-right > div > button {
+ border: none;
+ height: 26px;
+ width: 160px;
+ background-color: #0290ff;
+ color: rgb(255, 255, 255);
+ border-radius: 3px;
+ margin-bottom: 20px;
+}

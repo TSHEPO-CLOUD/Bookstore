@@ -36,7 +36,6 @@ function Page() {
               </div>
             </div>
             <div className="book-center">
-              <img src="./" alt="progress" className="progress" />
               <div className="data">
                 <h3>0</h3>
                 <h6>Completed</h6>

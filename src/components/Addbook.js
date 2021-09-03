@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { addBook } from '../redux/books/books';
+import { addBook } from '../redux/api/api';
 
-const Addbook = () => {
+function Addbook() {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
@@ -11,7 +11,7 @@ const Addbook = () => {
 
   const submitBookToStore = () => {
     const newBook = {
-      id: uuidv4(),
+      item_id: uuidv4(),
       title,
       author,
       category,
@@ -37,6 +37,6 @@ const Addbook = () => {
     </div>
 
   );
-};
+}
 
 export default Addbook;

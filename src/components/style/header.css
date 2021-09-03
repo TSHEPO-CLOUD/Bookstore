@@ -17,3 +17,9 @@ h1 {
   font-size: 30px;
   margin-left: 15px;
 }
+
+.navTitle {
+  text-decoration: none;
+  color: #919191;
+  font-size: 15px;
+}

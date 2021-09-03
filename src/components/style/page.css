@@ -12,3 +12,26 @@
  border-radius: 3px;
  margin-bottom: 20px;
 }
+
+.book-right {
+ width: 30%;
+ display: flex;
+ flex-direction: column;
+ justify-items: start;
+}
+
+.book-right > div {
+ width: 70%;
+ text-align: start;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+}
+
+.book-right > div > div > h3 {
+ color: #919191;
+ text-transform: uppercase;
+ font-size: 15px;
+ position: relative;
+ margin-bottom: 20px;
+}

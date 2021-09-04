@@ -1,10 +1,9 @@
 # Bookstore
 
 A project to keep track of books a user has read, using React and Redux.
+And connecting to the API.
 
-## Screenshot of the page
 
-![Screenshot Profile Page](XXXXXXX)
 
 ## Project Decription
 
@@ -14,10 +13,6 @@ The Bookstore is a website, that displays a list of books with option: to add, r
 
 - `React`
 - `Redux`
-
-## Live Version Link
-
-[Click Here!](XXXXXXXXXXXXXXXXxx)
 
 ## Getting Started
 
